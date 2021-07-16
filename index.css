@@ -1,0 +1,183 @@
+body {
+    font-family: sans-serif;
+    background-color: #d8d8d8;
+}
+
+.gog-logo img {
+ width: 34px;
+ height: 34px;
+}
+#navbarSupportedContent {
+    display: flex;
+}
+.navbar {
+    box-sizing: border-box;
+   
+    max-width: 100%;
+    height: 56px;
+    padding-top: 4px;
+    margin: auto;
+}
+
+nav li:last-child {
+    position: absolute;
+    right: 45px;
+    width: 43px;
+    margin-top: 6px;
+}
+    
+
+header {
+    text-align: left;
+    font-size: 1.5rem;
+    background-color:transparent;
+    margin-left: 40px;
+    margin-top: 15px
+}
+
+header p {
+    display: inline;
+}
+
+#carouselExampleInterval img {
+    height: 400px !important;
+}
+
+#four-games {
+    display: contents;
+}
+ #four-games .card-img-top:nth-child(3) {
+   width: 456px;
+ }
+
+
+
+ .paragraph {
+     margin-left: 40px;
+     display: flex;
+ }
+
+ .paragraph a{
+     text-decoration: none;
+     color:#86328a;
+     font-weight: bold;
+ }
+ .paragraph ~ p {
+     justify-content: space-between;
+     text-align: center !important;
+ }
+
+ .vl {
+     border-left: 2px solid gray;
+     height: 40px;
+     justify-content: space-between;
+     margin-left: 40px;
+     align-items: center;
+ }
+
+ .round {
+     width: 40px;
+     height: 40px;
+     border: 8px solid purple;
+     border-radius: 50%;
+     justify-content: space-between;
+     margin-left: 20px;
+     margin-right: 20px;
+    
+ }
+
+ .recom svg + p{
+     display: inline;
+     
+ }
+ .recom {
+     margin-left: 40px;
+     margin-top: 30px;
+ }
+
+ .nav-pills {
+     margin-top: 50px;
+ }
+  .con {
+      margin-top: 40px;
+  }
+
+.double ~ img {
+    height: 100px;
+    width: 100px;
+}
+
+.thebigone {
+    margin-top: 30px;
+    margin-bottom: 15px;
+} 
+
+.nav-link {
+    background-color: transparent;
+    color:#86328a;
+}
+
+.nav-pills .nav-link.active {
+    background-color: white;
+    color:rgb(36, 34, 34)
+}
+
+.table tbody img {
+    width: 180px;
+    height: 100px;
+}
+[scope="row"]{
+    width: 200px;
+}
+
+#show-more {
+    width: 100%;
+}
+
+.box-img {
+    position: relative;
+}
+
+.box-img img:first-child{
+    width: 433px;
+    height: 400px;
+}
+.box-img img:nth-child(2) {
+    position: absolute;
+    width: 246px;;
+    height: 131px;
+    top: 531px;
+    right: 187px
+}
+.box-img img:nth-child(3) {
+    position: absolute;
+    width: 216px;
+    height: 131px;
+    top: 400px;
+    left: 0px;
+}
+.box-img img:nth-child(4) {
+    position: absolute;
+    width: 216px;
+    height: 131px;
+    bottom: -393px;
+    left: 0px;
+}
+.box-img img:nth-child(5) {
+    position: absolute;
+    width: 217px;
+    height: 279px;
+    top: 400px;
+    left: 216px;
+}
+.box-img img:nth-child(6) {
+    position: absolute;
+    width: 217px;
+    height: 114px;
+    top: 679px;
+    left: 216px;
+}
+
+footer {
+    background-color: #262626;
+}
